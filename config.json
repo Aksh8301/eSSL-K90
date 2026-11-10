@@ -1,0 +1,23 @@
+{
+    "device_ips": ["192.168.1.201", "192.168.1.202"],
+    "device_port": 4370,
+    "comm_key": 0,
+    "device_names": {
+        "192.168.1.201": "Coaching",
+        "192.168.1.202": "PRT"
+    },
+    "device_records": {
+        "Coaching": {
+            "device_id": "DEV_DEP",
+            "serial_number": "SN_DEP"
+        },
+        "PRT": {
+            "device_id": "DEV_PRT",
+            "serial_number": "SN_PRT"
+        }
+    },
+    "verification_mode": "Fingerprint",
+    "api_url": "https://mcc.beatleanalytics.in/attendance-api/receive.php",
+    "api_key": "9412418709",
+    "interval_seconds": 60
+}
